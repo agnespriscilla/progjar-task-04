@@ -1,4 +1,4 @@
-# HTTP Server Implementation — Network Programming Task 4
+# HTTP Server Implementation Network Programming Task 4
 
 > Pemrograman Jaringan (Network Programming) · ITS Surabaya · 2025
 
@@ -12,7 +12,7 @@ Implementation of an HTTP server from scratch in Python, comparing **7 different
 
 ## Overview
 
-This project explores the core concepts of network programming by building an HTTP/1.1-compliant server using Python's raw socket API — without relying on high-level web frameworks. The same server logic is implemented across seven concurrency architectures, allowing direct performance comparison of each approach.
+This project explores the core concepts of network programming by building an HTTP/1.1-compliant server using Python's raw socket API without relying on high-level web frameworks. The same server logic is implemented across seven concurrency architectures, allowing direct performance comparison of each approach.
 
 The server handles GET requests, serves static files (HTML, images, text), and responds with proper HTTP status codes as defined in [RFC 2616](https://www.rfc-editor.org/rfc/rfc2616).
 
@@ -141,12 +141,12 @@ chmod +x perftest.sh
 
 ## Key Concepts Covered
 
-- **TCP Socket Programming** — raw socket creation, binding, listening, accepting connections
-- **HTTP/1.1 Protocol** — manual implementation of request parsing and response formatting (RFC 2616)
-- **Concurrency Models** — threads, processes, async I/O, and pool patterns
-- **SSL/TLS** — securing HTTP connections with certificates
-- **Socket Proxy** — forwarding connections between endpoints
-- **Performance Testing** — benchmarking server throughput and response time
+- **TCP Socket Programming** : raw socket creation, binding, listening, accepting connections
+- **HTTP/1.1 Protocol** : manual implementation of request parsing and response formatting (RFC 2616)
+- **Concurrency Models** : threads, processes, async I/O, and pool patterns
+- **SSL/TLS** : securing HTTP connections with certificates
+- **Socket Proxy** : forwarding connections between endpoints
+- **Performance Testing** : benchmarking server throughput and response time
 
 ---
 
@@ -161,6 +161,6 @@ This is **Task 4** of the *Pemrograman Jaringan* (Network Programming) course at
 **Agnes Priscilla Sekartaji Hadikusuma**  
 S1 Teknik Informatika · Institut Teknologi Sepuluh Nopember (ITS) Surabaya
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/agnespriscilla)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/agnespriscilla33)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/agnespriscilla)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:agnes.priscilla33@gmail.com)
